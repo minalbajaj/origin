@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping >
+<class name="com.loyalty.User" table="user_login">
+		<id name="pk_user_id" type="int" column="pk_user_id"> 
+        	<generator class="increment" />
+      	</id>
+		<property name="username" type="string" column="username"/>
+		<property name="password" type="string" column="password"/>
+		<property name="real_name" type="string" column="real_name"/>
+		<property name="user_type" type="string" column="user_type"/>
+		<property name="update_user_id" type="int" column="update_user_id"/>
+		<property name="user_update_date"  column="user_update_date"/>
+</class>
+
+<class name="com.loyalty.Member" table="member">
+		<id name="memberId" type="int" column="memberId"> 
+        	<generator class="increment" />
+      	</id>
+		<property name="title" type="string" column="title"/>
+		<property name="firstName" type="string" column="firstName"/>
+			<property name="memberCode" column="memberCode"/>
+		<property name="lastName" type="string" column="lastName"/>
+		<property name="address" type="string" column="address"/>
+		<property name="city" type="string" column="city"/>
+		<property name="state" type="string" column="state"/>
+		<property name="email" type="string" column="email"/>
+		<property name="gender" type="string" column="gender"/>
+		<property name="pin"  column="pin"/>
+		<property name="phone"   column="phone"/>
+		<property name="mobile"   column="mobile"/>
+		<property name="maritalStatus" type="string"  column="maritalStatus"/>
+		<property name="spouseFname" type="string"  column="spouseFname"/>
+		<property name="spouseLname" type="string" column="spouseLname"/>
+		<property name="spouseEmail" type="string" column="spouseEmail"/>
+		<property name="birthDate"  column="birthDate"/>
+		<property name="annivDate"   column="annivDate"/>
+		<property name="spouseBdate"  column="spouseBdate"/>
+		<set name="mdetails" cascade="all">
+	<key column="memberId"></key>
+	<one-to-many class="com.loyalty.Memberfamily"></one-to-many>
+</set>		
+</class>
+
+<class name="com.loyalty.Memberfamily" table="memberfamily">
+		<id name="mFamilyId" type="int" column="mFamilyId"> 
+        	<generator class="increment" />
+      	</id>
+		<property name="Relation" type="string" column="Relation"/>
+		<property name="Gender" type="string" column="Gender"/>
+		<property name="Name" type="string" column="Name"/>
+		<property name="DOB"  column="DOB"/>
+		<property name="memberId" type="int" column="memberId"/>
+		<property name="Age" type="int" column="Age"/>
+</class>
+	</hibernate-mapping>

@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+.tableHeading{
+	background:#80B8F1;
+	font-family:Calibri;
+	font-size:14px;
+	font-weight:normal;
+	color:#000000;
+	line-height:25px;
+}
+
+.pageheading{
+	font-family:Calibri;
+	font-size:20px;
+	font-weight:bold;
+	color:#333333;
+	margin-left:10px;
+}
+.sub_heading{
+	font-family:Calibri;
+	color:#FFFFFF;
+	font-size:16px;
+	font-weight:bold;
+	height: 24px;
+}
+
+.links{
+	font-family:Calibri;
+	font-size:12px;
+	color:#990000;
+	text-decoration:none;
+	font-weight:normal;
+	cursor:pointer;
+}
+.pageText{
+	font-family:Calibri;
+	font-size:13px;
+	font-weight:normal;
+	color:#000000;
+	line-height:22px;
+}
+
+.labels{
+	font-family:Calibri;
+	font-size:14px;
+	font-weight:normal;
+	color:#000000;
+	line-height:20px;
+}
+.controls{
+	font-family:Verdana;
+	font-size:13px;
+	font-weight:normal;
+	color:#000000;
+}
+.column_heading{
+	font-family:Calibri;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:normal;
+	background:#007CF9;
+	height: 24px;
+}
+.buttons{
+	font-family:Calibri;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	background:#EBEBEB;
+	border:1px solid #666666;
+	height:26px;
+	padding-bottom:1px;
+	cursor:pointer;
+	
+}
+
+.save_button{
+	font-family:Calibri;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	background:url(../images/save_btn.png) no-repeat left center;
+	sizingMethod:scale;
+	width:72px;
+	height:32px;
+	border:0px solid #CCC;
+	text-align:right;
+	cursor: pointer;
+}
+.save_button_div{
+	padding: 3px 3px 3px 3px;
+	border: 1px solid #CCC;
+	width:74px;
+	height:32px;
+}
+
+.cancel_button{
+	font-family:Calibri;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	background:url(../images/cancel_btn.png) no-repeat left center;
+	width:75px;
+	height:32px;
+	border:0px solid #CCC;
+	text-align:right;
+	cursor: pointer;
+}
+.cancel_button_div{
+	padding: 3px 3px 3px 3px;
+	border: 1px solid #CCC;
+	width:77px;
+	height:32px;
+}
+
+.delete_button{
+	font-family:Calibri;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	background:url(../images/delete_btn.png) no-repeat left center;
+	width:75px;
+	height:32px;
+	border:0px solid #CCC;
+	text-align:right;
+	cursor: pointer;
+}
+.delete_button_div{
+	padding: 3px 3px 3px 3px;
+	border: 1px solid #CCC;
+	width:77px;
+	height:32px;
+}
+
+.fonts1
+{
+    font-family:Times New Roman;
+	font-size:10px;
+
+}
+
+.fonts2
+{
+    font-family:Verdana;
+	font-size:9px;
+
+}
+.print_Heading{
+	font-family:"Cooper Black";
+	font-size:22px;	
+}
+.print_sub_Heading{
+	font-family:Calibri;
+	font-size:14px;	
+	line-height:22px;
+}
+.print_title{
+	line-height:23px;
+	font-family:Verdana;
+	font-size:13px;
+}
+.print_sub_title{
+	line-height:23px;
+	font-family:Verdana;
+	font-size:12px;
+}
+.print_text{
+	line-height:20px;
+	font-family:Verdana;
+	font-size:12px;
+}
+.print_labels{
+	font-family:Calibri;
+	font-size:13px;
+	font-weight:normal;
+	color:#000000;
+	line-height:22px;
+}

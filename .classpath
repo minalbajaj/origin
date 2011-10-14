@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="E:/project/jar for all/Hibernate jar files/mysql-connector-java-5.1.12-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/project/jar for all/Hibernate jar files/servlet-api.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/project/jar for all/Hibernate jar files/antlr-2.7.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/project/jar for all/Hibernate jar files/classes12.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/project/jar for all/Hibernate jar files/commons-collections-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/project/jar for all/Hibernate jar files/hibernate3.jar"/>
+	<classpathentry exported="true" kind="lib" path="E:/project/jar for all/Hibernate jar files/jsp-api.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
